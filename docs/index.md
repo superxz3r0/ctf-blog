@@ -55,37 +55,12 @@ hide:
 
 ---
 
-## Recent Writeups
+## Latest Writeups
 
-!!! note ""
-    Nothing here yet — first writeup incoming.
+| Date | Title | Platform | Tags |
+|------|-------|----------|------|
+| 2026-05-12 | [Wonderland](blog/index.md) | TryHackMe | linux · privesc · python |
+| 2026-05-08 | [Lame](blog/index.md) | HackTheBox | linux · easy · samba |
+| 2026-05-01 | [PicoCTF 2026](blog/index.md) | CTF Events | web · crypto · forensics |
 
----
-
-## Stats
-
-<div class="grid" markdown>
-
-<div markdown>
-
-| Platform | Writeups |
-|----------|:--------:|
-| TryHackMe | `0` |
-| HackTheBox | `0` |
-| CTF Events | `0` |
-
-</div>
-
-<div markdown>
-
-| Category | Count |
-|----------|:-----:|
-| Web | `0` |
-| Pwn | `0` |
-| Crypto | `0` |
-| Forensics | `0` |
-| Rev | `0` |
-
-</div>
-
-</div>
+[:octicons-arrow-right-24: All writeups](blog/index.md)

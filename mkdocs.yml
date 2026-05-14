@@ -97,6 +97,18 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags
+  - blog:
+      blog_dir: blog
+      post_url_format: "{slug}"
+      archive_date_format: yyyy
+      categories: true
+      categories_allowed:
+        - TryHackMe
+        - HackTheBox
+        - CTF Events
+      post_excerpt: required
+      post_excerpt_separator: "<!-- more -->"
+      authors: true
 
 extra:
   social:
@@ -118,16 +130,9 @@ extra:
 nav:
   - Home: index.md
   - Writeups:
-    - writeups/index.md
-    - TryHackMe: tryhackme/index.md
-    - HackTheBox:
-      - hackthebox/index.md
-      - Machines: hackthebox/machines/index.md
-      - Challenges: hackthebox/challenges/index.md
-    - CTF Events: ctf-events/index.md
+    - blog/index.md
   - Notes:
     - notes/index.md
     - Cheatsheets: notes/cheatsheets/index.md
     - Methodology: notes/methodology/index.md
   - Tools: tools/index.md
-  - Tags: tags.md
