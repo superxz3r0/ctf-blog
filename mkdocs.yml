@@ -1,7 +1,9 @@
 site_name: "0xffsm"
 site_description: "CTF writeups, notes, and hacking methodology"
 site_author: "0xffsm"
-site_url: ""
+site_url: "https://superxz3r0.github.io/ctf-blog"
+repo_url: https://github.com/superxz3r0/ctf-blog
+repo_name: superxz3r0/ctf-blog
 
 theme:
   name: material
@@ -100,7 +102,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/0xffsm
+      link: https://github.com/superxz3r0
       name: GitHub
   tags:
     Web: web
