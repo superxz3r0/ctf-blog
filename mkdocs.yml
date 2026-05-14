@@ -1,0 +1,132 @@
+site_name: "0xffsm"
+site_description: "CTF writeups, notes, and hacking methodology"
+site_author: "0xffsm"
+site_url: ""
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/shield-half-full
+    repo: fontawesome/brands/github
+    tag:
+      web: material/web
+      pwn: material/memory
+      crypto: material/key
+      forensics: material/magnify
+      rev: material/puzzle
+      linux: material/linux
+      windows: material/microsoft-windows
+      easy: material/signal-cellular-1
+      medium: material/signal-cellular-2
+      hard: material/signal-cellular-3
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - toc.follow
+    - announce.dismiss
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      title: On this page
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/0xffsm
+      name: GitHub
+  tags:
+    Web: web
+    Pwn: pwn
+    Crypto: crypto
+    Forensics: forensics
+    Rev: rev
+    Linux: linux
+    Windows: windows
+    Easy: easy
+    Medium: medium
+    Hard: hard
+
+nav:
+  - Home: index.md
+  - Writeups:
+    - writeups/index.md
+    - TryHackMe: tryhackme/index.md
+    - HackTheBox:
+      - hackthebox/index.md
+      - Machines: hackthebox/machines/index.md
+      - Challenges: hackthebox/challenges/index.md
+    - CTF Events: ctf-events/index.md
+  - Notes:
+    - notes/index.md
+    - Cheatsheets: notes/cheatsheets/index.md
+    - Methodology: notes/methodology/index.md
+  - Tools: tools/index.md
+  - Tags: tags.md
