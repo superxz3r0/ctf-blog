@@ -191,11 +191,25 @@
 /* copy button */
 .md-clipboard {
   color: var(--accent) !important;
-  opacity: 0.3;
-  transition: opacity 0.2s;
+  opacity: 0;
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+  transition: opacity 0.15s;
 }
 
-.md-clipboard:hover { opacity: 1; }
+.md-clipboard svg {
+  width: 0.85rem !important;
+  height: 0.85rem !important;
+}
+
+/* only show on hover of the code block */
+.md-typeset pre:hover .md-clipboard {
+  opacity: 0.4;
+}
+
+.md-clipboard:hover {
+  opacity: 1 !important;
+}
 
 /* ─── Tables ─────────────────────────────────────────────────────────────── */
 .md-typeset table:not([class]) {
