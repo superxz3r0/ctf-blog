@@ -7,7 +7,6 @@ repo_name: superxz3r0/ctf-blog
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     - scheme: slate
       primary: black
