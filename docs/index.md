@@ -25,7 +25,7 @@ hide:
 
     Guided rooms, learning paths, and beginner-to-advanced challenges.
 
-    [:octicons-arrow-right-24: View writeups](tryhackme/index.md)
+    [:octicons-arrow-right-24: View writeups](blog/index.md)
 
 -   :material-cube-outline: **HackTheBox**
 
@@ -33,7 +33,7 @@ hide:
 
     Retired machines, pro labs, and standalone challenges.
 
-    [:octicons-arrow-right-24: View writeups](hackthebox/index.md)
+    [:octicons-arrow-right-24: View writeups](blog/index.md)
 
 -   :material-flag-outline: **CTF Events**
 
@@ -41,7 +41,7 @@ hide:
 
     Time-limited competitions — PicoCTF, HTB CA, UIUCTF, and more.
 
-    [:octicons-arrow-right-24: View writeups](ctf-events/index.md)
+    [:octicons-arrow-right-24: View writeups](blog/index.md)
 
 -   :material-notebook-outline: **Notes**
 
@@ -55,12 +55,4 @@ hide:
 
 ---
 
-## Latest Writeups
-
-| Date | Title | Platform | Tags |
-|------|-------|----------|------|
-| 2026-05-12 | [Wonderland](blog/index.md) | TryHackMe | linux · privesc · python |
-| 2026-05-08 | [Lame](blog/index.md) | HackTheBox | linux · easy · samba |
-| 2026-05-01 | [PicoCTF 2026](blog/index.md) | CTF Events | web · crypto · forensics |
-
-[:octicons-arrow-right-24: All writeups](blog/index.md)
+[:octicons-arrow-right-24: Browse all writeups](blog/index.md){ .md-button }

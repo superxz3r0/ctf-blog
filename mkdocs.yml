@@ -136,3 +136,6 @@ nav:
     - Cheatsheets: notes/cheatsheets/index.md
     - Methodology: notes/methodology/index.md
   - Tools: tools/index.md
+
+not_in_nav: |
+  blog/posts/
